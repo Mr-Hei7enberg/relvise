@@ -41,6 +41,7 @@ body {
 	color: #252b42;
 	font-weight: 500;
 	font-family: Montserrat;
+	scroll-behavior: smooth;
 }
 
 /* ---------------------------------------------------------------------------- */
@@ -79,6 +80,16 @@ body {
 	left: 0;
 	top: 0;
 	z-index: 50;
+	transition: all 0.15s ease 0s;
+}
+
+.header_fixed {
+	position: fixed;
+	left: 0;
+	top: 0;
+	background: #fff;
+	box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+	transition: all 0.15s ease 0s;
 }
 
 .header__container {
